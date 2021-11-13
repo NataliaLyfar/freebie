@@ -10,12 +10,35 @@ body {
   margin: 0 auto;
 }
 
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin: 0;
+}
+
 ul {
   list-style: none;
+  padding: 0;
 }
 
 .link {
   text-decoration: none;
+}
+
+.container {
+  width: 1440px;
+  padding: 0 34px;
+  margin: 0 auto;
+}
+
+.header-container {
+  display: flex;
+  padding: 39px 34px 39px 80px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -23,6 +46,14 @@ ul {
   font-size: 18px;
   line-height: 2.16;
   color: var(--primary-shade-color);
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-item:not(:last-child) {
+  margin-right: 31px;
 }
 
 .nav-link {
@@ -36,6 +67,10 @@ ul {
   color: var(--accent-color);
 }
 
+/* .btn-wrapper {
+  margin-left: auto;
+} */
+
 .primary-btn {
   font-family: inherit;
   font-size: 18px;
@@ -46,4 +81,5 @@ ul {
   border: 1px solid var(--accent-color);
   border-radius: 5px;
   cursor: pointer;
+  padding: 14px 24px;
 }
