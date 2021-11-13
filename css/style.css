@@ -1,0 +1,49 @@
+:root {
+  --primary-color: #000000;
+  --primary-shade-color: #231f20;
+  --accent-color: #f7941e;
+  --secondary-color: #ffffff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 18px;
+  line-height: 2.16;
+  color: var(--primary-shade-color);
+}
+
+.nav-link {
+  font-size: 18px;
+  line-height: 1.22;
+  color: var(--primary-color);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+
+.primary-btn {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 1.22;
+  text-transform: uppercase;
+  color: var(--accent-color);
+  background-color: transparent;
+  border: 1px solid var(--accent-color);
+  border-radius: 5px;
+  cursor: pointer;
+}
