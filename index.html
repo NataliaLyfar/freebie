@@ -11,6 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Roboto&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Freebie</title>
   </head>
@@ -18,86 +25,103 @@
   <body>
     <header class="header-section">
       <div class="container header-container">
-      <a class="logo link" href="">logo</a>
-      <nav class="nav">
-        <ul class="nav-list">
-          <li class="nav-item"><a class="nav-link link" href="/">Home</a></li>
-          <li class="nav-item"><a class="nav-link link" href="/">About Us</a></li>
-          <li class="nav-item"><a class="nav-link link" href="/">Services</a></li>
-          <li class="nav-item"><a class="nav-link link" href="/">Blogs</a></li>
-        </ul>
-      </nav>
-      <div class="btn-wrapper">
-      <button class="primary-btn" type="button">Gift Finder</button>
+        <a class="logo link" href="">logo</a>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a class="nav-link link" href="/">Home</a></li>
+            <li class="nav-item"><a class="nav-link link" href="/">About Us</a></li>
+            <li class="nav-item"><a class="nav-link link" href="/">Services</a></li>
+            <li class="nav-item"><a class="nav-link link" href="/">Blogs</a></li>
+          </ul>
+        </nav>
+        <div class="btn-wrapper">
+          <button class="primary-btn" type="button">Gift Finder</button>
+        </div>
       </div>
-    </div>
     </header>
     <main>
       <!-- Первая секция -->
-      <section>
-        <ul>
-          <li>
-            <div>
-              <h1>Find a gift for your wife or girlfriend</h1>
-              <p>Struggling to find a gift for your wife or girlfriend? No problem!</p>
-              <button type="button">Find gift now</button>
-            </div>
-            <img src="./image/main/family.jpg" alt="семья" width="720" />
-          </li>
-          <li>
-            <img src="./image/main/thanks.jpg" alt="Спасибки" width="720" />
-            <div>
-              <h2>How we work</h2>
-              <p>
-                We’ve actually already asked hundreds of women what they want, and made a database
-                with the results. All you have to do is take our short survey that only takes
-                seconds, and our proprietary algorithm will match you with a few perfect gift
-                options.
-              </p>
-              <button type="button">Learn More</button>
-            </div>
-          </li>
-        </ul>
+      <section class="hero">
+        <div class="container hero-section">
+          <div class="hero-thumb">
+            <h1 class="hero-title">Find a gift for your wife or girlfriend</h1>
+            <p class="hero-text text">
+              Struggling to find a gift for your wife or girlfriend? No problem!
+            </p>
+            <button class="secondary-btn hero-btn" type="button">Find gift now</button>
+          </div>
+
+          <img src="./image/main/family.jpg" alt="семья" width="720" height="700" />
+        </div>
+      </section>
+      <section class="feature">
+        <div class="container feature-section">
+          <img src="./image/main/thanks.jpg" alt="Спасибки" width="720" height="700" />
+          <div class="feature-thumb">
+            <h2 class="feature-title">How we work</h2>
+            <p class="feature-text text">
+              We’ve actually already asked hundreds of women what they want, and made a database
+              with the results. All you have to do is take our short survey that only takes seconds,
+              and our proprietary algorithm will match you with a few perfect gift options.
+            </p>
+            <button class="secondary-btn feature-btn" type="button">Learn More</button>
+          </div>
+        </div>
       </section>
       <section>
-        <h2>Gifts for all Occasions</h2>
-        <p>“Try our web app to find the best gifts for all occasions”</p>
-        <ul>
-          <li>
-            <img src="./image/main/birthday.jpg" alt="birthday" width="270" />
-            <h3>Birthday</h3>
-            <a href="">See More</a>
-          </li>
-          <li>
-            <img src="./image/main/good-wife.jpg" alt="good-wife" width="270" />
-            <h3>Anniversary</h3>
-            <a href="">See More</a>
-          </li>
-          <li>
-            <img src="./image/main/kiss-me.jpg" alt="kiss-me" width="270" />
-            <h3>Valentine's Day</h3>
-            <a href="">See More</a>
-          </li>
-          <li>
-            <img src="./image/main/christmas.jpg" alt="christmas" width="270" />
-            <h3>Christmas</h3>
-            <a href="">See More</a>
-          </li>
-        </ul>
+        <div class="container gallery-section">
+          <h2 class="gallery-title">Gifts for all Occasions</h2>
+          <p class="aftertitle">“Try our web app to find the best gifts for all occasions”</p>
+          <ul class="gallery-list">
+            <li class="gallery-item">
+              <img src="./image/main/birthday.jpg" alt="birthday" width="270" />
+              <div class="gallery-card-thumb">
+                <h3 class="gallery-card-title">Birthday</h3>
+                <a class="gallery-link" href="">See More</a>
+              </div>
+            </li>
+            <li class="gallery-item">
+              <img src="./image/main/good-wife.jpg" alt="good-wife" width="270" />
+              <div class="gallery-card-thumb">
+                <h3 class="gallery-card-title">Anniversary</h3>
+                <a class="gallery-link" href="">See More</a>
+              </div>
+            </li>
+            <li class="gallery-item">
+              <img src="./image/main/kiss-me.jpg" alt="kiss-me" width="270" />
+              <div class="gallery-card-thumb">
+                <h3 class="gallery-card-title">Valentine's Day</h3>
+                <a class="gallery-link" href="">See More</a>
+              </div>
+            </li>
+            <li class="gallery-item">
+              <img src="./image/main/christmas.jpg" alt="christmas" width="270" />
+              <div class="gallery-card-thumb">
+                <h3 class="gallery-card-title">Christmas</h3>
+                <a class="gallery-link" href="">See More</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="cta">
+        <div class="container cta-section">
+          <div class="cta-thumb">
+            <h2 class="cta-text">Ready to get started?</h2>
+            <p class="cta-text">Sign up or contact us</p>
+          </div>
+          <ul class="btn-list">
+            <li class="btn-item">
+              <button class="secondary-btn cta-btn left" type="button">FIND GIFT NOW</button>
+            </li>
+            <li class="btn-item">
+              <button class="secondary-btn cta-btn right" type="button">HOW IT WORKS</button>
+            </li>
+          </ul>
+        </div>
       </section>
       <section>
-        <h2>Ready to get started?</h2>
-        <p>Sign up or contact us</p>
-        <ul>
-          <li>
-            <button type="button">FIND GIFT NOW</button>
-          </li>
-          <li>
-            <button type="button">HOW IT WORKS</button>
-          </li>
-        </ul>
-      </section>
-      <section>
+        <div class="container blogs-section">
         <h2>Our Best Blogs Ever</h2>
         <p>“Try our blog to find the best tips and tricks to select your gift”</p>
         <img src="./image/main/boy-and-girl.jpg" alt="Парень с девушкой" width="400" height="370" />
