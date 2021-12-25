@@ -14,8 +14,8 @@
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0 auto;
-  color: var(--primary-color);
-  background-color: var(--secondary-color);
+  color: $primary-color;
+  background-color: $secondary-color;
 }
 
 h1,
@@ -70,7 +70,7 @@ a {
   font-family: 'Homemade Apple', cursive;
   font-size: 18px;
   line-height: 2.16;
-  color: var(--primary-shade-color);
+  color: $primary-shade-color;
   margin-left: 80px;
 }
 
@@ -86,12 +86,12 @@ a {
   display: block;
   font-size: 18px;
   line-height: 1.22;
-  color: var(--primary-color);
+  color: $primary-color;
   padding: 47px 0;
 }
 .nav-link:hover,
 .nav-link:focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 /* .btn-wrapper {
@@ -104,9 +104,9 @@ a {
   font-size: 18px;
   line-height: 1.22;
   text-transform: uppercase;
-  color: var(--accent-color);
+  color: $accent-color;
   background-color: transparent;
-  border: 1px solid var(--accent-color);
+  border: 1px solid $accent-color;
   border-radius: 5px;
   cursor: pointer;
   text-align: center;
@@ -117,7 +117,7 @@ a {
 
 .hero-section {
   display: flex;
-  background-color: var(--secondary-shade-color);
+  background-color: $secondary-shade-color;
 }
 
 .hero-thumb {
@@ -135,8 +135,8 @@ a {
 .hero-btn {
   min-width: 200px;
   height: 60px;
-  color: var(--secondary-color);
-  background-color: var(--accent-color);
+  color: $secondary-color;
+  background-color: $accent-color;
   border: none;
 }
 /* feature */
@@ -144,7 +144,7 @@ a {
 }
 .feature-section {
   display: flex;
-  background-color: var(--secondary-shade-color);
+  background-color: $secondary-shade-color;
 }
 .feature-thumb {
   flex-grow: 1;
@@ -162,9 +162,9 @@ a {
 .feature-btn {
   min-width: 200px;
   height: 60px;
-  color: var(--accent-color);
+  color: $accent-color;
   background-color: transparent;
-  border: 1px solid var(--accent-color);
+  border: 1px solid $accent-color;
 }
 /* gallery */
 
@@ -196,7 +196,7 @@ a {
 }
 .gallery-card-thumb {
   padding: 24px;
-  background-color: var(--secondary-shade2-color);
+  background-color: $secondary-shade2-color;
 }
 .gallery-card-title {
   font-size: 20px;
@@ -218,7 +218,7 @@ a {
   align-items: center;
   padding-top: 81px;
   padding-bottom: 69px;
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 .cta-thumb {
   margin-left: 235px;
@@ -242,14 +242,14 @@ a {
   height: 48px;
 }
 .cta-btn.left {
-  color: var(--secondary-color);
-  background-color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  color: $secondary-color;
+  background-color: $primary-color;
+  border: 1px solid $primary-color;
 }
 .cta-btn.right {
-  color: var(--primary-color);
+  color: $primary-color;
   background-color: transparent;
-  border: 1px solid var(--primary-color);
+  border: 1px solid $primary-color;
 }
 
 /* blogs */
@@ -276,8 +276,8 @@ a {
 .read-more {
   padding: 63px 200px 49px 78px;
 
-  background-color: var(--primary-shade-color);
-  color: var(--secondary-color);
+  background-color: $primary-shade-color;
+  color: $secondary-color;
 }
 
 .blog-name {
@@ -291,7 +291,7 @@ a {
 }
 
 .blog-link {
-  color: var(--secondary-color);
+  color: $secondary-color;
 }
 
 .blog-cards {
@@ -319,21 +319,19 @@ a {
 }
 
 .blog-card-link {
-  color: var(--primary-color);
+  color: $primary-color;
 }
 
 /* footer */
 
-.footer {
-}
 
 .footer-section {
   padding: 106px 420px 43px 406px;
-  background-color: var(--secondary-shade2-color);
+  background-color: $secondary-shade2-color;
 }
 
 .footer-section a {
-  color: var(--primary-color);
+  color: $primary-color;
 }
 
 .footer-nav {
@@ -344,7 +342,7 @@ a {
 }
 
 .footer-section .logo {
-  color: var(--accent-color);
+  color: $accent-color;
   margin: 0 141px;
 }
 

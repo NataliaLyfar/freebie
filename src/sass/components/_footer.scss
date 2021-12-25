@@ -1,0 +1,43 @@
+.footer-section {
+    padding: 106px 420px 43px 406px;
+    background-color: $secondary-shade2-color;
+  }
+  
+  .footer-section a {
+    color: $primary-color;
+  }
+  
+  .footer-nav {
+    justify-content: center;
+    margin-bottom: 43px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-section .logo {
+    color: $accent-color;
+    margin: 0 141px;
+  }
+  
+  .footer-link {
+    margin-right: 54px;
+  }
+  
+  .socials-list {
+    margin-bottom: 72px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .socials-item:not(:last-child) {
+    margin-right: 24px;
+  }
+  
+  .footer-info {
+    text-align: center;
+  }
+  
+  .footer-years {
+    margin-right: 14px;
+  }
+  

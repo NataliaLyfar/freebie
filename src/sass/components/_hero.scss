@@ -1,0 +1,24 @@
+.hero-section {
+    display: flex;
+    background-color: $secondary-shade-color;
+  }
+  
+  .hero-thumb {
+    flex-grow: 1;
+    padding: 154px 126px 135px 162px;
+  }
+  .hero-title {
+    margin-bottom: 36px;
+    font-size: 56px;
+    line-height: 1.23;
+  }
+  .hero-text {
+    margin-bottom: 52px;
+  }
+  .hero-btn {
+    min-width: 200px;
+    height: 60px;
+    color: $secondary-color;
+    background-color: $accent-color;
+    border: none;
+  }

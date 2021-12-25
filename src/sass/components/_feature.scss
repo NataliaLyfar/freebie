@@ -1,0 +1,25 @@
+
+.feature-section {
+  display: flex;
+  background-color: $secondary-shade-color;
+}
+.feature-thumb {
+  flex-grow: 1;
+  padding: 164px 166px 104px 112px;
+}
+.feature-title {
+  margin-bottom: 23px;
+  font-size: 32px;
+  line-height: 1.4;
+}
+.feature-text {
+  margin-bottom: 35px;
+  text-align: justify;
+}
+.feature-btn {
+  min-width: 200px;
+  height: 60px;
+  color: $accent-color;
+  background-color: transparent;
+  border: 1px solid $accent-color;
+}
