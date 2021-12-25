@@ -1,0 +1,42 @@
+.gallery-section {
+    padding-top: 96px;
+    padding-bottom: 137px;
+  }
+  .gallery-title {
+    font-size: 32px;
+    line-height: 1.19;
+    text-align: center;
+    margin-bottom: 23px;
+  }
+  .aftertitle {
+    margin-bottom: 64px;
+    font-size: 18px;
+    line-height: 1.4;
+    text-align: center;
+  }
+  .gallery-list {
+    display: flex;
+    padding: 0 135px;
+  }
+  .gallery-item {
+    flex-basis: calc((100% - 90px) / 4);
+  }
+  .gallery-item:not(:last-child) {
+    margin-right: 30px;
+  }
+  .gallery-card-thumb {
+    padding: 24px;
+    background-color: $secondary-shade2-color;
+  }
+  .gallery-card-title {
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 74px;
+    text-align: left;
+  }
+  .gallery-link {
+    font-size: 14px;
+    line-height: 1.36;
+    color: inherit;
+    text-align: left;
+  }
