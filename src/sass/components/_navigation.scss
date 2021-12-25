@@ -1,9 +1,16 @@
 .nav-list {
     display: flex;
+	 @media  screen and (max-width:991px) {
+		 flex-direction: column;
+		 align-items: center;
+	 }
   }
   
   .nav-item:not(:last-child) {
     margin-right: 31px;
+	 @media  screen and (max-width:991px) {
+		 margin-right: 0;
+	 }
   }
   
   .nav-link {
